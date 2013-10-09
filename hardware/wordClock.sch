@@ -5626,6 +5626,20 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="63.5" y1="35.56" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="63.5" y1="15.24" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="60.96" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="60.96" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
+<junction x="63.5" y="60.96"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="53.34" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="53.34" x2="63.5" y2="45.72" width="0.1524" layer="91"/>
+<junction x="63.5" y="45.72"/>
+<junction x="63.5" y="15.24"/>
+<junction x="63.5" y="35.56"/>
+<junction x="63.5" y="53.34"/>
 </segment>
 </net>
 <net name="CLK" class="0">
@@ -5732,10 +5746,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <segment>
 <pinref part="U3" gate="G$1" pin="PC5(ADC5/SCL)"/>
 <wire x1="132.08" y1="55.88" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="PC5(ADC5/SCL)"/>
-<wire x1="132.08" y1="55.88" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
 <label x="134.62" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -5812,6 +5822,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="83.82" y1="60.96" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
 <junction x="78.74" y="60.96"/>
 <junction x="78.74" y="63.5"/>
+<junction x="81.28" y="60.96"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -5883,6 +5894,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <junction x="152.4" y="106.68"/>
 <junction x="154.94" y="106.68"/>
 <label x="111.76" y="106.68" size="1.778" layer="95"/>
+<junction x="200.66" y="106.68"/>
+<junction x="246.38" y="106.68"/>
+<junction x="129.54" y="106.68"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
@@ -6383,19 +6397,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="Q8" gate="G$1" pin="D"/>
 <wire x1="266.7" y1="83.82" x2="276.86" y2="83.82" width="0.1524" layer="91"/>
 <label x="269.24" y="83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="60.96" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="60.96" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
-<junction x="63.5" y="60.96"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="53.34" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
