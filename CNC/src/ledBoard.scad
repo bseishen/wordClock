@@ -1,32 +1,21 @@
-/*
-wordClock hole pattern for CNC.
-*/
-thickness = 12.7;
-xOffset = 40;
-yOffset = 40;
-xSpaceing = 18;
-ySpaceing = 31;
-lightCavityDepth =7; 
-W = 15;
-L = 18;
- 
- 
-difference()
-{
-	translate([0,0,0]) {
-		cube([292.1, 292.1, thickness]);
-	}
+include <../configuration.scad>;
+$fn=24;
 
-	for ( x = [0:12] ) {
-		for ( y = [0:7] ) {
-			//cut light cavity
-     	 	translate([((x*xSpaceing)+xOffset-(W/2)), ((y*ySpaceing)+yOffset-(L/2)), (thickness-lightCavityDepth)]) {
-         	cube (size = [W,L,lightCavityDepth+1], center = false);
-		 	}
-			//Cut circle for LED
-			translate([(x*xSpaceing)+xOffset, (y*ySpaceing)+yOffset, 0]) {
-				cylinder (h = thickness, r=5, center = false);
-      	}
-   	}
+module LEDBoard(){
+	translate([-BoardWidth/2,-BoardLength/2,0])
+	difference(){
+		cube([BoardWidth, BoardLength, BoardThickness]);
+		for( y=[0:LightRows-1] ){
+			translate([LightTrim,LightTrim+y*(CavityLength+(BoardLength-2*LightTrim-LightRows*CavityLength)/(LightRows-1)),0]){
+				for( x=[0:LightCols-1] ){
+					translate([x*(CavityWidth+(BoardWidth-2*LightTrim-LightCols*CavityWidth)/(LightCols-1)),0,CavityBottomThickness])
+					cube([CavityWidth, CavityLength, BoardThickness]);
+					translate([x*(BoardWidth-2*LightTrim-CavityWidth)/(LightCols-1)+CavityWidth/2,CavityLength/2,-0.5])
+					cylinder( h=BoardThickness+1, r=LEDRadius );
+				}
+			}
+		}
 	}
 }
+
+LEDBoard();
