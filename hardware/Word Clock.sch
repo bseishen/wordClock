@@ -348,9 +348,7 @@ F 3 "" H 5850 2800 60  0001 C CNN
 	1    5850 2800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6600 4300
 NoConn ~ 6600 4200
-NoConn ~ 6600 4100
 Text Label 6250 3400 2    60   ~ 0
 BLANK
 Text Label 10550 4800 0    60   ~ 0
@@ -1437,4 +1435,14 @@ Wire Wire Line
 NoConn ~ 3300 6300
 NoConn ~ 3400 6300
 NoConn ~ 3500 6300
+Wire Wire Line
+	6600 4300 5850 4300
+Connection ~ 5850 4300
+Wire Wire Line
+	6600 4100 6150 4100
+Wire Wire Line
+	6150 4100 6150 3650
+Wire Wire Line
+	6150 3650 5850 3650
+Connection ~ 5850 3650
 $EndSCHEMATC
