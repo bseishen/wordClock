@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3  Date: Wed 09 Oct 2013 03:53:45 PM CDT
+#encoding utf-8
+#
+# ZENERsmall
+#
+DEF ZENERsmall D 0 40 N N 1 F N
+F0 "D" 0 100 40 H V C CNN
+F1 "ZENERsmall" 0 -100 30 H V C CNN
+$FPLIST
+ D?
+ SO*
+ SM*
+$ENDFPLIST
+DRAW
+P 4 0 1 0  -40 40  40 0  -40 -40  -40 40 F
+P 4 0 1 8  60 40  40 20  40 -20  20 -40 N
+X A 1 -100 0 60 R 40 40 1 1 P
+X K 3 100 0 60 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

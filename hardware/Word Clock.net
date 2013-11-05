@@ -1,0 +1,388 @@
+# EESchema Netlist Version 1.1 created  Mon 14 Oct 2013 04:13:26 PM CDT
+(
+ ( /525C1E0D SM0805 C1 0.1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /525C1E0A SM0805 C2 22pF
+  ( 1 GND )
+  ( 2 N-000039 )
+ )
+ ( /525C1E0B SM0805 C3 22pF
+  ( 1 GND )
+  ( 2 N-000038 )
+ )
+ ( /525C5854 SM1206 C4 10uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /525C1E05 SM0805 C5 0.1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /525C1E08 SM0805 C6 0.1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /525C1E10 SM0805 C7 0.1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /525C52E2 SM1210 F1 500mA
+  ( 1 N-000013 )
+  ( 2 +5V )
+ )
+ ( /525C207E HRS_MINI_USB J1 UX60SC-MB-5ST(80)
+  ( 1 N-000013 )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 GND )
+  ( 6 GND )
+  ( 7 GND )
+ )
+ ( /525C5E43 Mounting-hole-3mm M1 MOUNTING-HOLE
+  ( 1 ? )
+ )
+ ( /525C5E47 Mounting-hole-3mm M2 MOUNTING-HOLE
+  ( 1 ? )
+ )
+ ( /525C5E4A Mounting-hole-3mm M3 MOUNTING-HOLE
+  ( 1 ? )
+ )
+ ( /525C5E4F Mounting-hole-3mm M4 MOUNTING-HOLE
+  ( 1 ? )
+ )
+ ( /525C0C3D PIN_ARRAY-6X1 P1 RTC
+  ( 1 /ADC6 )
+  ( 2 +5V )
+  ( 3 GND )
+  ( 4 /CLK )
+  ( 5 /IO )
+  ( 6 /CE )
+ )
+ ( /525C0C50 PIN_ARRAY_4x1 P2 Light_Sense
+  ( 1 +5V )
+  ( 2 GND )
+  ( 3 /SCL )
+  ( 4 /SDA )
+ )
+ ( /525C0BD7 pin_array_3x2 P3 ICSP
+  ( 1 /MISO )
+  ( 2 +5V )
+  ( 3 /SCLK )
+  ( 4 /SIN )
+  ( 5 /RESET )
+  ( 6 GND )
+ )
+ ( /525C12D9 PIN_ARRAY_5x2 P4 Row
+  ( 1 /ROW0 )
+  ( 2 /ROW1 )
+  ( 3 /ROW2 )
+  ( 4 /ROW3 )
+  ( 5 /ROW4 )
+  ( 6 /ROW5 )
+  ( 7 /ROW6 )
+  ( 8 /ROW7 )
+  ( 9 ? )
+  ( 10 ? )
+ )
+ ( /525C12F3 pin_array_8x2 P5 Column
+  ( 1 /OUT0 )
+  ( 2 /OUT1 )
+  ( 3 /OUT2 )
+  ( 4 /OUT3 )
+  ( 5 /OUT4 )
+  ( 6 /OUT5 )
+  ( 7 /OUT6 )
+  ( 8 /OUT7 )
+  ( 9 /OUT8 )
+  ( 10 /OUT9 )
+  ( 11 /OUT10 )
+  ( 12 /OUT11 )
+  ( 13 /OUT12 )
+  ( 14 /OUT13 )
+  ( 15 /OUT14 )
+  ( 16 /OUT15 )
+ )
+ ( /525C1DCE SOT23-MOSFET Q1 PMV160UP,215
+  ( D /ROW0 )
+  ( G /M0 )
+  ( S +5V )
+ )
+ ( /525C1DD1 SOT23-MOSFET Q2 PMV160UP,215
+  ( D /ROW1 )
+  ( G /M1 )
+  ( S +5V )
+ )
+ ( /525C1DD3 SOT23-MOSFET Q3 PMV160UP,215
+  ( D /ROW2 )
+  ( G /M2 )
+  ( S +5V )
+ )
+ ( /525C1DD5 SOT23-MOSFET Q4 PMV160UP,215
+  ( D /ROW3 )
+  ( G /M3 )
+  ( S +5V )
+ )
+ ( /525C1DDA SOT23-MOSFET Q5 PMV160UP,215
+  ( D /ROW4 )
+  ( G /M4 )
+  ( S +5V )
+ )
+ ( /525C1DD7 SOT23-MOSFET Q6 PMV160UP,215
+  ( D /ROW5 )
+  ( G /M5 )
+  ( S +5V )
+ )
+ ( /525C29A9 SOT23-MOSFET Q7 PMV160UP,215
+  ( D /ROW6 )
+  ( G /M6 )
+  ( S +5V )
+ )
+ ( /525C29AC SOT23-MOSFET Q8 PMV160UP,215
+  ( D /ROW7 )
+  ( G /M7 )
+  ( S +5V )
+ )
+ ( /525C1EBA SM0805 R1 10K
+  ( 1 +5V )
+  ( 2 /RESET )
+ )
+ ( /525C1EAC SM0805 R2 10K
+  ( 1 +5V )
+  ( 2 /M0 )
+ )
+ ( /525C1EAE SM0805 R3 10K
+  ( 1 +5V )
+  ( 2 /M1 )
+ )
+ ( /525C1EB0 SM0805 R4 10K
+  ( 1 +5V )
+  ( 2 /M2 )
+ )
+ ( /525C1EB8 SM0805 R5 2K
+  ( 1 GND )
+  ( 2 N-000055 )
+ )
+ ( /525C1EB3 SM0805 R6 10K
+  ( 1 +5V )
+  ( 2 /M3 )
+ )
+ ( /525C1EB6 SM0805 R7 10K
+  ( 1 +5V )
+  ( 2 /BLANK )
+ )
+ ( /525C1EB1 SM0805 R8 10K
+  ( 1 +5V )
+  ( 2 /M4 )
+ )
+ ( /525C1EB5 SM0805 R9 10K
+  ( 1 +5V )
+  ( 2 /M5 )
+ )
+ ( /525C29B3 SM0805 R10 10K
+  ( 1 +5V )
+  ( 2 /M6 )
+ )
+ ( /525C29AF SM0805 R11 10K
+  ( 1 +5V )
+  ( 2 /M7 )
+ )
+ ( /525C1E96 5x5_dip4_switch SW1 DPST
+  ( 1 /HR )
+  ( 2 GND )
+  ( 3 /HR )
+  ( 4 GND )
+ )
+ ( /525C1E99 5x5_dip4_switch SW2 DPST
+  ( 1 /MIN )
+  ( 2 GND )
+  ( 3 /MIN )
+  ( 4 GND )
+ )
+ ( /525C1BF5 TQFP32 U1 ATMEGA328-AU
+  ( 1 /M3 )
+  ( 2 /M4 )
+  ( 3 GND )
+  ( 4 +5V )
+  ( 5 GND )
+  ( 6 +5V )
+  ( 7 N-000039 )
+  ( 8 N-000038 )
+  ( 9 /M5 )
+  ( 10 /M6 )
+  ( 11 /M7 )
+  ( 12 /CLK )
+  ( 13 /XLAT )
+  ( 14 /BLANK )
+  ( 15 /SIN )
+  ( 16 /MISO )
+  ( 17 /SCLK )
+  ( 18 +5V )
+  ( 19 /ADC6 )
+  ( 20 +5V )
+  ( 21 GND )
+  ( 22 ? )
+  ( 23 /HR )
+  ( 24 /MIN )
+  ( 25 /CE )
+  ( 26 /IO )
+  ( 27 /SDA )
+  ( 28 /SCL )
+  ( 29 /RESET )
+  ( 30 /M0 )
+  ( 31 /M1 )
+  ( 32 /M2 )
+ )
+ ( /525C1C3D DIP-28__300 U2 TLC5940-NT
+  ( 1 /OUT1 )
+  ( 2 /OUT2 )
+  ( 3 /OUT3 )
+  ( 4 /OUT4 )
+  ( 5 /OUT5 )
+  ( 6 /OUT6 )
+  ( 7 /OUT7 )
+  ( 8 /OUT8 )
+  ( 9 /OUT9 )
+  ( 10 /OUT10 )
+  ( 11 /OUT11 )
+  ( 12 /OUT12 )
+  ( 13 /OUT13 )
+  ( 14 /OUT14 )
+  ( 15 /OUT15 )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 N-000055 )
+  ( 21 +5V )
+  ( 22 GND )
+  ( 23 /BLANK )
+  ( 24 /XLAT )
+  ( 25 /SCLK )
+  ( 26 /SIN )
+  ( 27 ? )
+  ( 28 /OUT0 )
+ )
+ ( /525C1E6A SMT_OSC X1 16Mhz
+  ( 1 N-000038 )
+  ( 2 N-000039 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

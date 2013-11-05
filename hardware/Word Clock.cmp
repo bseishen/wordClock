@@ -1,0 +1,297 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Mon 14 Oct 2013 04:13:26 PM CDT
+
+BeginCmp
+TimeStamp = /525C1E0D;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1E0A;
+Reference = C2;
+ValeurCmp = 22pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1E0B;
+Reference = C3;
+ValeurCmp = 22pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C5854;
+Reference = C4;
+ValeurCmp = 10uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1E05;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1E08;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1E10;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C52E2;
+Reference = F1;
+ValeurCmp = 500mA;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C207E;
+Reference = J1;
+ValeurCmp = UX60SC-MB-5ST(80);
+IdModule  = HRS_MINI_USB;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C5E43;
+Reference = M1;
+ValeurCmp = MOUNTING-HOLE;
+IdModule  = Mounting-hole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C5E47;
+Reference = M2;
+ValeurCmp = MOUNTING-HOLE;
+IdModule  = Mounting-hole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C5E4A;
+Reference = M3;
+ValeurCmp = MOUNTING-HOLE;
+IdModule  = Mounting-hole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C5E4F;
+Reference = M4;
+ValeurCmp = MOUNTING-HOLE;
+IdModule  = Mounting-hole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C0C3D;
+Reference = P1;
+ValeurCmp = RTC;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C0C50;
+Reference = P2;
+ValeurCmp = Light_Sense;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C0BD7;
+Reference = P3;
+ValeurCmp = ICSP;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C12D9;
+Reference = P4;
+ValeurCmp = Row;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C12F3;
+Reference = P5;
+ValeurCmp = Column;
+IdModule  = pin_array_8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1DCE;
+Reference = Q1;
+ValeurCmp = PMV160UP,215;
+IdModule  = SOT23-MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1DD1;
+Reference = Q2;
+ValeurCmp = PMV160UP,215;
+IdModule  = SOT23-MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1DD3;
+Reference = Q3;
+ValeurCmp = PMV160UP,215;
+IdModule  = SOT23-MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1DD5;
+Reference = Q4;
+ValeurCmp = PMV160UP,215;
+IdModule  = SOT23-MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1DDA;
+Reference = Q5;
+ValeurCmp = PMV160UP,215;
+IdModule  = SOT23-MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1DD7;
+Reference = Q6;
+ValeurCmp = PMV160UP,215;
+IdModule  = SOT23-MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C29A9;
+Reference = Q7;
+ValeurCmp = PMV160UP,215;
+IdModule  = SOT23-MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C29AC;
+Reference = Q8;
+ValeurCmp = PMV160UP,215;
+IdModule  = SOT23-MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1EBA;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1EAC;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1EAE;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1EB0;
+Reference = R4;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1EB8;
+Reference = R5;
+ValeurCmp = 2K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1EB3;
+Reference = R6;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1EB6;
+Reference = R7;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1EB1;
+Reference = R8;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1EB5;
+Reference = R9;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C29B3;
+Reference = R10;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C29AF;
+Reference = R11;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1E96;
+Reference = SW1;
+ValeurCmp = DPST;
+IdModule  = 5x5_dip4_switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1E99;
+Reference = SW2;
+ValeurCmp = DPST;
+IdModule  = 5x5_dip4_switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1BF5;
+Reference = U1;
+ValeurCmp = ATMEGA328-AU;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1C3D;
+Reference = U2;
+ValeurCmp = TLC5940-NT;
+IdModule  = DIP-28__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /525C1E6A;
+Reference = X1;
+ValeurCmp = 16Mhz;
+IdModule  = SMT_OSC;
+EndCmp
+
+EndListe
