@@ -1,0 +1,92 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 10/27/2013 7:50:00 PM
+#Cmp ( order = Reference )
+| C1         0.1uF       
+| C2         22pF        
+| C3         22pF        
+| C4         10uF        
+| C5         0.1uF       
+| C6         0.1uF       
+| C7         0.1uF       
+| F1         500mA       
+| J1         UX60SC-MB-5ST(80)
+| M1         MOUNTING-HOLE
+| M2         MOUNTING-HOLE
+| M3         MOUNTING-HOLE
+| M4         MOUNTING-HOLE
+| P1         RTC         
+| P2         Light Sense 
+| P3         ICSP        
+| P4         Row         
+| P5         Column      
+| Q1         PMV160UP,215
+| Q2         PMV160UP,215
+| Q3         PMV160UP,215
+| Q4         PMV160UP,215
+| Q5         PMV160UP,215
+| Q6         PMV160UP,215
+| Q7         PMV160UP,215
+| Q8         PMV160UP,215
+| R1         10K         
+| R2         10K         
+| R3         10K         
+| R4         10K         
+| R5         2K          
+| R6         10K         
+| R7         10K         
+| R8         10K         
+| R9         10K         
+| R10        10K         
+| R11        10K         
+| SW1        DPST        
+| SW2        DPST        
+| U1         ATMEGA328-AU
+| U2         TLC5940-NT  
+| X1         16Mhz       
+#End Cmp
+
+#Cmp ( order = Value )
+| 22pF         C2        
+| 22pF         C3        
+| 0.1uF        C1        
+| 0.1uF        C5        
+| 0.1uF        C6        
+| 0.1uF        C7        
+| 10uF         C4        
+| 500mA        F1        
+| UX60SC-MB-5ST(80) J1        
+| MOUNTING-HOLE M1        
+| MOUNTING-HOLE M2        
+| MOUNTING-HOLE M3        
+| MOUNTING-HOLE M4        
+| RTC          P1        
+| Light Sense  P2        
+| ICSP         P3        
+| Row          P4        
+| Column       P5        
+| PMV160UP,215 Q1        
+| PMV160UP,215 Q2        
+| PMV160UP,215 Q3        
+| PMV160UP,215 Q4        
+| PMV160UP,215 Q5        
+| PMV160UP,215 Q6        
+| PMV160UP,215 Q7        
+| PMV160UP,215 Q8        
+| 2K           R5        
+| 10K          R1        
+| 10K          R2        
+| 10K          R3        
+| 10K          R4        
+| 10K          R6        
+| 10K          R7        
+| 10K          R8        
+| 10K          R9        
+| 10K          R10       
+| 10K          R11       
+| DPST         SW1       
+| DPST         SW2       
+| ATMEGA328-AU U1        
+| TLC5940-NT   U2        
+| 16Mhz        X1        
+#End Cmp
+
+#End List
