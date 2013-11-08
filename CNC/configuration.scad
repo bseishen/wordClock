@@ -14,12 +14,12 @@ BoardThickness = 12.7;
 //Light Values
 LightCols = 8;
 LightRows = 13;
-LightTrim = 15;
+LightTrim = 29;
 
 //Light Cavity Values
-CavityWidth = 15;
-CavityLength = 18;
-CavityBottomThickness = 5.7;
+CavityWidth = 18;
+CavityLength = 15;
+CavityBottomThickness = 4;
 
 //LED Size
 LEDRadius = 2.5;
